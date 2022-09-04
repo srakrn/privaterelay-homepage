@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Private Relay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-1 mb-5">srakrn | Private Relay</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-2">If you received an email with the address weirdly matching your entity and the
+                domain
+                is <code>@privaterelay.srakrn.me</code>, then the email should work fine as expected!</p>
+            <p class="mb-2">This email is operated by <a href="https://srakrn.me">Sirakorn Lamyai</a>. The concept
+                is
+                that the emails get "tagged" from the receiver's address. This is to make sure that if any
+                particular
+                address gets leaked or sold
+                to advertising agencies, he can filter them out accordingly.</p>
+            <hr />
+            <h2 class="display-4">FAQs</h2>
+            <h4 class="lead">Q: Does this means anyone could randomly send emails to
+                <code>@privaterelay.srakrn.me</code> and it will reach your inbox?
+            </h4>
+            <p>A: Well, no, the emails need to be whitelisted. You cannot assume that your company
+                <code>WeirdCorp</code> can simply drop me a message at <code>weridcorp@privaterelay.srakrn.me</code>
+            </p>
+            <h4 class="lead">Q: This would not work with my email system due to some (insert technical terms here)!
+            </h4>
+            <p>A: No. The system is just plainly email forwarder, it should work in all cases.</code>
+            </p>
+            <h4 class="lead">Q: I get a response back from another <code>@privaterelay.srakrn.me</code> email, is that
+                you?
+            </h4>
+            <p>Yes! While I hope I can reply to emails using the original alias I have asked you to send my emails to,
+                it is not the case
+            </p>
+            <h4 class="lead">Q: I want this! Can you share the architecture/infrastructure behind it?
+            </h4>
+            <p>Simply an <a href="https://forwardemail.net">Email forwarding service</a> to my personal Gmail account
+                (along with weird Gmail tagging rules and some dirty scripts to create email aliases on the fly.)
+            </p>
+            <h4 class="lead">Q: I am a personal entity and instead of getting an "actual" email addres, I got this
+                private relay email instead.
+            </h4>
+            <p>Well, either (1) you did not get the email directly from me, or (2) I considered emails from you shold be
+                tagged. Let's hope it's not the later case.</p>
+        </div>
+    </div>
+</body>
